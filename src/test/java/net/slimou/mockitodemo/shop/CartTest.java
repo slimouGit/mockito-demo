@@ -23,9 +23,6 @@ public class CartTest {
     @Mock
     Cart cart;
 
-    @Mock
-    Item item;
-
     @InjectMocks
     CartService cartService;
 
