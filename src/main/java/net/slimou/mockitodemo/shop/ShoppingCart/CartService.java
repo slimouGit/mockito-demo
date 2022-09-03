@@ -1,9 +1,11 @@
-package net.slimou.mockitodemo.ShoppingCart;
+package net.slimou.mockitodemo.shop.ShoppingCart;
 
-import net.slimou.mockitodemo.Item.Item;
+import net.slimou.mockitodemo.shop.Item.Item;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CartService {
 
     public Double calculateBill(List<Item> listOfItems)

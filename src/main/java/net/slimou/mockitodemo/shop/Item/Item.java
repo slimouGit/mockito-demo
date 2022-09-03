@@ -1,4 +1,4 @@
-package net.slimou.mockitodemo.Item;
+package net.slimou.mockitodemo.shop.Item;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
