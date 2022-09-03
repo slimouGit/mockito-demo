@@ -1,14 +1,12 @@
 package net.slimou.mockitodemo.shop.Item;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Item {
     private Long id;
     private String name;
